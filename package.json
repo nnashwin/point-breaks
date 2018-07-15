@@ -4,7 +4,7 @@
   "description": "Consistent, accessible, importable breakpoints",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "ava tests/"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/ru-lai/point-breaks/issues"
   },
-  "homepage": "https://github.com/ru-lai/point-breaks#readme"
+  "homepage": "https://github.com/ru-lai/point-breaks#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
